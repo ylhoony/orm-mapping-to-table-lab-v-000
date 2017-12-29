@@ -1,7 +1,7 @@
 class Student
 
   # Remember, you can access your database connection anywhere in this class
-  #  with DB[:conn]  
+  #  with DB[:conn]
 
   attr_accessor :name, :grade
 
@@ -11,7 +11,7 @@ class Student
   end
 
   def self.create_table
-    sql = <<- SQL
+    sql = <<-SQL
       CREATE TABLE IF NOT EXISTS students (
         id INTEGER PRIMARY KEY,
         name TEXT,
@@ -22,15 +22,15 @@ class Student
   end
 
   def self.drop_table
-    
+
   end
 
   def save
-    
+
   end
 
   def self.create(attributes)
-    
+
   end
-  
+
 end

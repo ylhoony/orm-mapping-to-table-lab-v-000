@@ -21,5 +21,9 @@ class Student
   def save
     
   end
+
+  def self.create(attributes)
+    
+  end
   
 end
